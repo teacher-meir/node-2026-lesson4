@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/teacher-meir/node-2026-lesson4/issues"
   },
-  "homepage": "https://github.com/teacher-meir/node-2026-lesson4#readme"
+  "homepage": "https://github.com/teacher-meir/node-2026-lesson4#readme",
+  "dependencies": {
+    "jewish-date": "^2.0.23"
+  }
 }
