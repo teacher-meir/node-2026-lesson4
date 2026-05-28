@@ -1,0 +1,22 @@
+{
+  "name": "npm-lesson",
+  "version": "1.0.0",
+  "description": "npm examples",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teacher-meir/node-2026-lesson4.git"
+  },
+  "keywords": [
+    "npm"
+  ],
+  "author": "node teacher",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/teacher-meir/node-2026-lesson4/issues"
+  },
+  "homepage": "https://github.com/teacher-meir/node-2026-lesson4#readme"
+}
