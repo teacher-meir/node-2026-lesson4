@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "description": "npm examples",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node test-example/index",
+    "dev": "node --watch test-example/index",
+    "test": "vitest"
   },
   "repository": {
     "type": "git",
@@ -20,6 +23,9 @@
   },
   "homepage": "https://github.com/teacher-meir/node-2026-lesson4#readme",
   "dependencies": {
-    "jewish-date": "^2.0.23"
+    "jewish-date": "^2.0.9"
+  },
+  "devDependencies": {
+    "vitest": "^3.2.4"
   }
 }
